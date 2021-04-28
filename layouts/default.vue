@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <nav-bar />
+    <Navbar />
     <Nuxt />
   </div>
 </template>
 
 <script>
-import NavBar from '~/components/NavBar.vue'
+import Navbar from '~/components/Navbar'
 export default {
   components: {
-    NavBar,
+    Navbar,
   },
   head() {
     return {
