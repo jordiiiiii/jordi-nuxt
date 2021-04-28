@@ -1,3 +1,5 @@
+// import EventService from './services/EventService.js'
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -42,4 +44,17 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // When using nuxt generate, you should set target: 'static' in your nuxt.config
+  target: 'static', // default is 'server'
+
+  // generate: {
+  //   routes: () => {
+  //     return EventService.getEvents().then((response) => {
+  //       return response.data.map((event) => {
+  //         return '/event/' + event.id
+  //       })
+  //     })
+  //   },
+  // },
 }
